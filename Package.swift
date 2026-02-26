@@ -17,7 +17,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/ml-explore/mlx-swift", exact: "0.30.2"),
-    .package(url: "https://github.com/darphoenix/MLXUtilsLibrary.git", exact: "0.0.7")
+    .package(url: "https://github.com/darphoenix/MLXUtilsLibrary.git", exact: "0.0.8")
   ],
   targets: [
     .target(
