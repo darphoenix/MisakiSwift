@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
   name: "MisakiSwift",
   platforms: [
-    .iOS(.v18), .macOS(.v15)
+    .iOS(.v17), .macOS(.v14)
   ],
   products: [
     .library(
@@ -17,7 +17,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/ml-explore/mlx-swift", exact: "0.30.2"),
-    .package(url: "https://github.com/mlalma/MLXUtilsLibrary.git", exact: "0.0.6")
+    .package(url: "https://github.com/darphoenix/MLXUtilsLibrary.git", exact: "0.0.7")
   ],
   targets: [
     .target(
